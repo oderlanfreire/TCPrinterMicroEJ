@@ -1,25 +1,20 @@
 # Overview
-
-MicroEJ Mono-Sandbox Firmware: `@MMM_MODULE_NAME@`.
-
-# Usage
-
-Add the following line to your `module.ivy`:
-
-    @MMM_DEPENDENCY_DECLARATION@
+This project is based on TotalCross Printer Sample rebuild with MicroEJ as a standalone application, for an example to an articleand for study MicroEJ develop.
 
 # Requirements
 
-N/A.
+MicroEJ SDK installed
+you can download for free on MicroEJ Official Website
+https://www.microej.com/product/sdk/
 
-# Dependencies
+# Library and Documentation
+Repository:
+https://repository.microej.com/javadoc/microej_5.x/apis/
 
-_All dependencies are retrieved transitively by MicroEJ Module Manager_.
+Documentation:
+https://docs.microej.com/en/latest/Tutorials/getStartedWithGUI/
 
-# Source
+# TotalCross Sample
+TCPrinter:
+https://github.com/TotalCross/embedded-samples/tree/main/printer-application
 
-N/A.
-
-# Restrictions
-
-None.
