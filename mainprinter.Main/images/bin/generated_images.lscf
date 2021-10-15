@@ -1,0 +1,42 @@
+<lscFragment>
+<defSection name=".rodata.images" start="0" end="0x7fffffff" align="4"/>
+<memoryLayout ranges=".rodata.images" image="true">
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_add.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_BSCAN.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_BUTTON_1SCAN.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_COPY.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_copyb.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_copybw.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_copycolor.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_DOCUMENT.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_DONE.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_doneb.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_donec.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_FROM_1COMPUTER.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_FROM_1PHONE.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_FROM_1USB.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_home_1config.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_home_1fundohorario_1data.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_home_1seta.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_home_1wifi.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_home.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_LEVEL.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_minus.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_numberbackground.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_OTHER_1SCAN.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_PHONE.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_PHOTO.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_PRINT.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_printb.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_printbutton.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_printbw.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_printcolor.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_recopy.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_reprint.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_retangulo.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_savepc.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_scan.png_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_teste.jpg_1raw"/>
+<sectionRef name="*" symbol="_java_rodata_resource_java_Pimages_usbp.png_1raw"/>
+</memoryLayout>
+</lscFragment>
