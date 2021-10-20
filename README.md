@@ -1,5 +1,5 @@
 # Overview
-This project is based on TotalCross Printer Sample rebuild with MicroEJ as a standalone application, for an example to an articleand for study MicroEJ develop.
+This project is based on TotalCross Printer Sample rebuild with MicroEJ as a standalone application, for an example to an article and for study MicroEJ develop.
 
 # Requirements
 
