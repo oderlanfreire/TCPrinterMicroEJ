@@ -67,10 +67,12 @@ public class CopyLoading {
 	private static final int CANVAS = 21;
 
 	/**
-	 * populateStyleSheet, create a selector, receive the content ID.
+	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
+	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
+	 * in the attributes.
 	 *
 	 * @param stylesheet
-	 *            populating the style of the code
+	 *            the Cascading Stylesheet.
 	 */
 	public void populateStylesheet(CascadingStylesheet stylesheet) {
 		Selector hmPBtn = new ClassSelector(HOME_BUTTON);
@@ -109,7 +111,8 @@ public class CopyLoading {
 	}
 
 	/**
-	 * Set actions to the buttons, make the navigation between the screens.
+	 * This method set a onClickListener to the ImageButtons attributing actions to them. Make the navigation between
+	 * the screens.
 	 */
 	public static void Actions() {
 		backBTN.setOnClickListener(new OnClickListener() {
@@ -142,9 +145,9 @@ public class CopyLoading {
 	}
 
 	/**
-	 * getContentWidget. Method to set the content as a widget, instance other methods and return
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
 	 *
-	 * @return canvas - the widget distributed on the screen
+	 * @return ContentWidget
 	 */
 
 	public Widget getContentWidget() {
@@ -172,7 +175,7 @@ public class CopyLoading {
 	}
 
 	/**
-	 * The Class AnimatedCircularProgress.
+	 * This class is responsive for the phases and attributes of the animation.
 	 */
 	private static class AnimatedCircularProgress extends CircularProgress implements Animation {
 
@@ -183,7 +186,7 @@ public class CopyLoading {
 		private long startTime;
 
 		/**
-		 * onShow.
+		 * This method is responsible for start the animation.
 		 */
 		@Override
 		protected void onShown() {
@@ -192,7 +195,7 @@ public class CopyLoading {
 		}
 
 		/**
-		 * onHidden.
+		 * This method is responsible for stop the animation.
 		 */
 		@Override
 		protected void onHidden() {
@@ -200,11 +203,11 @@ public class CopyLoading {
 		}
 
 		/**
-		 * Tick.
+		 * This method is responsible for update the animation.
 		 *
 		 * @param currentTimeMillis
-		 *            the current time millis
-		 * @return true, if successful
+		 *            The current time in milliseconds.
+		 * @return true, if successful.
 		 */
 		@Override
 		public boolean tick(long currentTimeMillis) {

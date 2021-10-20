@@ -195,9 +195,9 @@ public class PrintFinish {
 	}
 
 	/**
-	 * Set the content of the widget.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
 	 *
-	 * @return the content widget
+	 * @return ContentWidget
 	 */
 	public Widget getContentWidget() {
 		doneBTN = new ImageButton(DONE_BTN);

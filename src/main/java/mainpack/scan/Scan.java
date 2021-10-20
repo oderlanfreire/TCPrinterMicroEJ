@@ -73,7 +73,8 @@ public class Scan {
 	private static final int CANVAS = 339;
 
 	/**
-	 * Set actions to the buttons, make the navigation between the screens.
+	 * This method set a onClickListener to the ImageButtons attributing actions to them. Make the navigation between
+	 * the screens.
 	 */
 	public static void Actions() {
 		documentBTN.setOnClickListener(new OnClickListener() {
@@ -145,10 +146,12 @@ public class Scan {
 	}
 
 	/**
-	 * populateStyleSheet, create a selector, receive the content ID.
+	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
+	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
+	 * in the attributes.
 	 *
 	 * @param stylesheet
-	 *            populating the style of the code
+	 *            the Cascading Stylesheet.
 	 */
 	public void populateStylesheet(CascadingStylesheet stylesheet) {
 		Selector docBTNSel = new ClassSelector(DOCUMENT_ImageButton);
@@ -193,9 +196,9 @@ public class Scan {
 	}
 
 	/**
-	 * Set the content of the widget.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
 	 *
-	 * @return the content widget
+	 * @return ContentWidget
 	 */
 	public Widget getContentWidget() {
 
@@ -240,7 +243,7 @@ public class Scan {
 	}
 
 	/**
-	 * Sets the iD.
+	 * Sets the iD to control what screen will turn back when click in the back button
 	 *
 	 * @param iD
 	 *            the iD to set.

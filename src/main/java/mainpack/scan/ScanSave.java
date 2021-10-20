@@ -100,10 +100,12 @@ public class ScanSave {
 	private static final int CANVAS = 559;
 
 	/**
-	 * populateStyleSheet, create a selector, receive the content ID.
+	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
+	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
+	 * in the attributes.
 	 *
 	 * @param stylesheet
-	 *            populating the style of the code
+	 *            the Cascading Stylesheet.
 	 */
 	public void populateStylesheet(CascadingStylesheet stylesheet) {
 		Selector phoneBTNSel = new ClassSelector(PHONE_BUTTON);
@@ -162,7 +164,8 @@ public class ScanSave {
 	}
 
 	/**
-	 * Set actions to the buttons, make the navigation between the screens.
+	 * This method set a onClickListener to the ImageButtons attributing actions to them. Make the navigation between
+	 * the screens.
 	 */
 	public void Actions() {
 		sPhoneBTN.setOnClickListener(new OnClickListener() {
@@ -233,9 +236,9 @@ public class ScanSave {
 	}
 
 	/**
-	 * Set the content of the widget.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
 	 *
-	 * @return the content widget
+	 * @return ContentWidget
 	 */
 	public Widget getContentWidget() {
 		sPhoneBTN = new ImageButton(PHONE_BTN);

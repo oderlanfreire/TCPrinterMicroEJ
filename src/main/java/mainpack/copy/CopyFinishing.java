@@ -82,10 +82,12 @@ public class CopyFinishing {
 	private static final int CANVAS = 888;
 
 	/**
-	 * populateStyleSheet, create a selector, receive the content ID.
+	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
+	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
+	 * in the attributes.
 	 *
 	 * @param stylesheet
-	 *            populating the style of the code
+	 *            the Cascading Stylesheet.
 	 */
 	public void populateStylesheet(CascadingStylesheet stylesheet) {
 		Selector cpSelBTN = new ClassSelector(COPY_BUTTON);
@@ -132,7 +134,8 @@ public class CopyFinishing {
 	}
 
 	/**
-	 * Actions. Set actions to the buttons. Make the navigation between the screens.
+	 * This method set a onClickListener to the ImageButtons attributing actions to them. Make the navigation between
+	 * the screens.
 	 */
 	public static void Actions() {
 		newCopyBTN.setOnClickListener(new OnClickListener() {
@@ -192,9 +195,9 @@ public class CopyFinishing {
 	}
 
 	/**
-	 * getContentWidget. Method to set the content as a widget, instance other methods and return
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
 	 *
-	 * @return canvas - the widget distributed on the screen
+	 * @return ContentWidget
 	 */
 	public Widget getContentWidget() {
 		doneBTN = new ImageButton(DONE_BTN);

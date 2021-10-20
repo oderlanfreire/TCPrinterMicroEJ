@@ -85,7 +85,8 @@ public class Copy {
 	private static final String BACK = "/images/home_seta.png"; //$NON-NLS-1$
 
 	/**
-	 * Set actions to the buttons. Make the navigation between the screens.
+	 * This method set a onClickListener to the ImageButtons attributing actions to them. Make the navigation between.
+	 * the screens.
 	 */
 	public static void Actions() {
 		offcolorBTN.setOnClickListener(new OnClickListener() {
@@ -156,10 +157,13 @@ public class Copy {
 	}
 
 	/**
-	 * populateStyleSheet, create a selector, receive the content ID.
+	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
+	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
+	 * in the attributes.
 	 *
 	 * @param stylesheet
-	 *            populating the style of the code
+	 *            the Cascading Stylesheet.
+	 *
 	 */
 	public void populateStylesheet(CascadingStylesheet stylesheet) {
 		Selector bwPBtnSel = new ClassSelector(BW_BUTTON);
@@ -206,9 +210,10 @@ public class Copy {
 	}
 
 	/**
-	 * getContentWidget. Method to set the content as a widget, instance other methods and return
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
 	 *
-	 * @return canvas - the widget distributed on the screen
+	 * @return ContentWidget
+	 *
 	 */
 	public Widget getContentWidget() {
 		offcolorBTN = new ImageButton(OFFCOLORBUTTON);
@@ -253,7 +258,7 @@ public class Copy {
 	}
 
 	/**
-	 * Sets the iD.
+	 * Sets the iD to control what screen will turn back when click in the back button.
 	 *
 	 * @param iD
 	 *            the iD to set.

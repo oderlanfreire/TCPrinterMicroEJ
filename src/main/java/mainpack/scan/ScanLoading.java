@@ -70,10 +70,12 @@ public class ScanLoading {
 	private static final int CANVAS = 21;
 
 	/**
-	 * populateStyleSheet, create a selector, receive the content ID.
+	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
+	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
+	 * in the attributes.
 	 *
 	 * @param stylesheet
-	 *            populating the style of the code
+	 *            the Cascading Stylesheet.
 	 */
 	public void populateStylesheet(CascadingStylesheet stylesheet) {
 		Selector hmPBtn = new ClassSelector(HOME_ImageButton);
@@ -112,7 +114,8 @@ public class ScanLoading {
 	}
 
 	/**
-	 * Set actions to the buttons, make the navigation between the screens.
+	 * This method set a onClickListener to the ImageButtons attributing actions to them. Make the navigation between
+	 * the screens.
 	 */
 	public static void Actions() {
 		backBTN.setOnClickListener(new OnClickListener() {
@@ -156,9 +159,9 @@ public class ScanLoading {
 	}
 
 	/**
-	 * Set the content of the widget.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
 	 *
-	 * @return the content widget
+	 * @return ContentWidget
 	 */
 	public Widget getContentWidget() {
 		backBTN = new ImageButton(BACK_BUTTON_IMG);
@@ -185,7 +188,7 @@ public class ScanLoading {
 	}
 
 	/**
-	 * The Class AnimatedCircularProgress.
+	 * This class is responsive for the phases and attributes of the animation.
 	 */
 	private static class AnimatedCircularProgress extends CircularProgress implements Animation {
 
@@ -196,7 +199,7 @@ public class ScanLoading {
 		private long startTime;
 
 		/**
-		 * On shown.
+		 * This method is responsible for start the animation.
 		 */
 		@Override
 		protected void onShown() {
@@ -205,7 +208,7 @@ public class ScanLoading {
 		}
 
 		/**
-		 * On hidden.
+		 * This method is responsible for stop the animation.
 		 */
 		@Override
 		protected void onHidden() {
@@ -213,10 +216,10 @@ public class ScanLoading {
 		}
 
 		/**
-		 * Tick.
+		 * This method is responsible for update the animation.
 		 *
 		 * @param currentTimeMillis
-		 *            the current time millis
+		 *            The current time in milliseconds.
 		 * @return true, if successful
 		 */
 		@Override
@@ -238,7 +241,7 @@ public class ScanLoading {
 	}
 
 	/**
-	 * Sets the iD.
+	 * Sets the iD to control what screen will turn back when click in the back button
 	 *
 	 * @param iD
 	 *            the iD to set.

@@ -112,7 +112,8 @@ public class Main {
 	private static final int DATE = 12;
 
 	/**
-	 * Set actions to the buttons using onClickListener. Make the navigation between the screens.
+	 * This method set a onClickListener to the ImageButtons attributing actions to them. Make the navigation between
+	 * the screens.
 	 */
 	public static void Actions() {
 		scanBTN.setOnClickListener(new OnClickListener() {
@@ -162,10 +163,13 @@ public class Main {
 	}
 
 	/**
-	 * Create a selector, receive.
+	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
+	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
+	 * in the attributes.
 	 *
 	 * @param stylesheet
-	 *            populating the style of the code
+	 *            the Cascading Stylesheet.
+	 *
 	 */
 	public static void populateStylesheet(CascadingStylesheet stylesheet) {
 		Selector scanBTNSel = new ClassSelector(SCAN_ID);
@@ -260,10 +264,9 @@ public class Main {
 	}
 
 	/**
-	 * Set the content of the widget. instance the content, add the the ID to the content, instance the Actions method
+	 * Get the contentWidget. Where the the attributes are instanced and sets in the screen.
 	 *
-	 * @return canvas
-	 *
+	 * @return ContentWidget
 	 */
 	@SuppressWarnings("static-access")
 	public static Widget getContentWidget() {

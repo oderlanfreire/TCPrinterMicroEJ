@@ -82,10 +82,12 @@ public class ScanDoc {
 	private static final int CANVAS = 886;
 
 	/**
-	 * populateStyleSheet, create a selector, receive the content ID.
+	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
+	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
+	 * in the attributes.
 	 *
 	 * @param stylesheet
-	 *            populating the style of the code
+	 *            the Cascading Stylesheet.
 	 */
 	public void populateStylesheet(CascadingStylesheet stylesheet) {
 		Selector scanBTNSel = new ClassSelector(SCAN_BUTTON);
@@ -134,7 +136,8 @@ public class ScanDoc {
 	}
 
 	/**
-	 * Set actions to the buttons, make the navigation between the screens.
+	 * This method set a onClickListener to the ImageButtons attributing actions to them. Make the navigation between
+	 * the screens.
 	 */
 	public void Actions() {
 		scanBTN.setOnClickListener(new OnClickListener() {
@@ -184,9 +187,9 @@ public class ScanDoc {
 	}
 
 	/**
-	 * Set the content of the widget.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
 	 *
-	 * @return the content widget.
+	 * @return ContentWidget
 	 */
 	public Widget getContentWidget() {
 		scanBTN = new ImageButton(SCAN_BACKG);
