@@ -5,6 +5,7 @@ This project is based on TotalCross Printer Sample rebuild with MicroEJ as a sta
 
 ### MicroEJ SDK installed
 You can download for free on MicroEJ Official Website: 
+
 https://www.microej.com/product/sdk/
 
 # Library and Documentation
