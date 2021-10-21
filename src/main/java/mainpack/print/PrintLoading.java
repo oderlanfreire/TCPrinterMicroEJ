@@ -26,8 +26,8 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class PrintLoading, a class which create a widget to receive a Circular Progress bar from other class, set the
- * style of Circular Progress bar from other class and set in the screen.
+ * The Class PrintLoading, a class which create a widget to receive a Circular Progress bar, set the style of Circular
+ * Progress bar from the CirculaProgress class and set in the screen.
  */
 public class PrintLoading {
 
