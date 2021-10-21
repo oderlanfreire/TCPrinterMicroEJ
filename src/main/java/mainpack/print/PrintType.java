@@ -20,14 +20,15 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class PrintType. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class PrintTypea class which create a widget that you can choice a type of print that you want, if it's colorful
+ * or black and white.
  */
 public class PrintType {
 
 	/** The color print. */
 	static ImageButton colorPrint;
 
-	/** The coloroff print. */
+	/** The color off print. */
 	static ImageButton coloroffPrint;
 
 	/** The back. */
@@ -204,7 +205,8 @@ public class PrintType {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 */
@@ -240,7 +242,7 @@ public class PrintType {
 	}
 
 	/**
-	 * Gets the iD.
+	 * Gets the iD of the selected class.
 	 *
 	 * @return the iD.
 	 */

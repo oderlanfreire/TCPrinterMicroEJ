@@ -20,7 +20,8 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class ScanPhoto. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class ScanPhoto, a class which creates a widget with a label explaining about the scan photo process and a button
+ * to start the scan
  */
 public class ScanPhoto {
 
@@ -187,7 +188,8 @@ public class ScanPhoto {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 */

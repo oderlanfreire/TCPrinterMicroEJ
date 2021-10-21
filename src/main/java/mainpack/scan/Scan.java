@@ -20,7 +20,7 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class Scan. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class Scan, a class which creates a widget that you can choice a type of scan, if was a document or a photo.
  */
 public class Scan {
 
@@ -196,7 +196,8 @@ public class Scan {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 */
@@ -234,7 +235,7 @@ public class Scan {
 	}
 
 	/**
-	 * Gets the iD.
+	 * Gets the iD of the selected class.
 	 *
 	 * @return the iD.
 	 */

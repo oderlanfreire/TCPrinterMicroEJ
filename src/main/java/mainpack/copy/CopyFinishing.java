@@ -20,7 +20,9 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class CopyFinishing. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class CopyFinishing, a class which creates a widget that you can choice what you will do when the copies are
+ * printed, you receive two options, if you done or if you want to make another copy, if you done, you are redirected to
+ * the main screen. If you want to make another copy you are redirected to the copy screen.
  */
 public class CopyFinishing {
 
@@ -195,7 +197,8 @@ public class CopyFinishing {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 */

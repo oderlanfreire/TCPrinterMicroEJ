@@ -20,7 +20,9 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class PrintFinish. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class PrintFinish, a class which creates a widget that you can choice what you will do when the copies are
+ * printed, you receive two options, if you done or if you want to make another print, if you done, you are redirected
+ * to the main screen. If you want to make another print you are redirected to the print screen.
  */
 public class PrintFinish {
 
@@ -82,7 +84,9 @@ public class PrintFinish {
 	private static final int CANVAS = 888;
 
 	/**
-	 * populateStyleSheet, create a selector, receive the content ID.
+	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
+	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
+	 * in the attributes.
 	 *
 	 * @param stylesheet
 	 *            populating the style of the code
@@ -195,7 +199,8 @@ public class PrintFinish {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 */

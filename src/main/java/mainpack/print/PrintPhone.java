@@ -21,7 +21,7 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class PrintPhone. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class PrintPhone, a class which create a widget that show a file that you want to print of the phone.
  */
 public class PrintPhone {
 
@@ -182,7 +182,8 @@ public class PrintPhone {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 */

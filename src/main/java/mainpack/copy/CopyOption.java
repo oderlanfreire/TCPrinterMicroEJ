@@ -21,7 +21,9 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class CopyOption. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class CopyOption, a class which creates a widget that you can configure the amount of copies that the printer
+ * will do.
+ *
  */
 public class CopyOption {
 
@@ -255,7 +257,8 @@ public class CopyOption {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 */

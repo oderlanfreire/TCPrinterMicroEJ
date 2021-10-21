@@ -20,7 +20,8 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class Printer. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class Printer. a class which create a widget that you can choice a source to seek the file that you want to
+ * print.
  */
 public class Printer {
 
@@ -256,7 +257,8 @@ public class Printer {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 */
@@ -300,7 +302,7 @@ public class Printer {
 	}
 
 	/**
-	 * Gets the iD.
+	 * Gets the iD from the selected class.
 	 *
 	 * @return the iD.
 	 */

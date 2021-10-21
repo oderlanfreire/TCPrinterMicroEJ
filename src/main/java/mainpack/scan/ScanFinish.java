@@ -20,7 +20,9 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class ScanFinish. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class ScanFinish, , a class which creates a widget that you can choice what you will do when the scan are
+ * finished, you receive two options, if you done or if you want to make another scan, if you done, you are redirected
+ * to the main screen. If you want to make another scan you are redirected to the scan screen.
  */
 public class ScanFinish {
 
@@ -196,7 +198,8 @@ public class ScanFinish {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 */

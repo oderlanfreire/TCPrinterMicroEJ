@@ -20,11 +20,12 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class Copy. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class Copy, a class which create a widget that you can choice a type of copy that you want, if it's colorful or
+ * black and white.
  */
 public class Copy {
 
-	/** The offcolor BTN. */
+	/** The off color BTN. */
 	static ImageButton offcolorBTN;
 
 	/** The color BTN. */
@@ -210,7 +211,8 @@ public class Copy {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons.
 	 *
 	 * @return ContentWidget
 	 *
@@ -249,7 +251,7 @@ public class Copy {
 	}
 
 	/**
-	 * Gets the iD.
+	 * Gets the iD of the selected screen.
 	 *
 	 * @return the iD.
 	 */

@@ -26,7 +26,8 @@ import ej.widget.container.Canvas;
 import mainprinter.Main;
 
 /**
- * The Class PrintLoading. Declaration of attributes, Strings content and the ID's for class selectors
+ * The Class PrintLoading, a class which create a widget to receive a Circular Progress bar from other class, set the
+ * style of Circular Progress bar from other class and set in the screen.
  */
 public class PrintLoading {
 
@@ -72,7 +73,7 @@ public class PrintLoading {
 	/**
 	 * This method to populate the style of components in the screen receiving a CascadingStylesheet. Use selector to
 	 * get the class attributes that will receive a style by ID using ClassSelector. Use EditableStylesheet to set style
-	 * in the attributes.
+	 * in the attributes. This method is responsible for the style of the Circular Progress bar too.
 	 *
 	 * @param stylesheet
 	 *            the Cascading Stylesheet.
@@ -148,7 +149,9 @@ public class PrintLoading {
 	}
 
 	/**
-	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen.
+	 * Get the contentWidget. Where the the attributes are instantiated and sets in the screen. Create a stylesheet and
+	 * call the method to set the style of the widget. Call the method to set actions to the buttons. Call a static
+	 * class responsible for the animation of the Circular Progress bar.
 	 *
 	 * @return ContentWidget
 	 */
@@ -179,7 +182,8 @@ public class PrintLoading {
 	}
 
 	/**
-	 * This class is responsive for the phases and attributes of the animation.
+	 * The Class AnimatedCircularProgress, it's a static class which create and control the animation of the Circular
+	 * Progress bar and update the progress.
 	 */
 	private static class AnimatedCircularProgress extends CircularProgress implements Animation {
 
@@ -190,7 +194,8 @@ public class PrintLoading {
 		private long startTime;
 
 		/**
-		 * This method is responsible for start the animation.
+		 * This method is responsible for start the animation. Get the current time of the system in milliseconds and
+		 * set in the variable and set the variable at startAnimation called with getDesktop and get Animator.
 		 */
 		@Override
 		protected void onShown() {
@@ -199,7 +204,7 @@ public class PrintLoading {
 		}
 
 		/**
-		 * This method is responsible for stop the animation.
+		 * This method is responsible for stop the animation when the next screen is called.
 		 */
 		@Override
 		protected void onHidden() {
@@ -207,7 +212,8 @@ public class PrintLoading {
 		}
 
 		/**
-		 * This method is responsible for update the animation.
+		 * This method is responsible for update the animation making the calculation using the current time and the
+		 * value stored in the variable Set the progress and request the visual update in the screen with the render.
 		 *
 		 * @param currentTimeMillis
 		 *            The current time in milliseconds.
